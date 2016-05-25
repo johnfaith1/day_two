@@ -39,3 +39,16 @@
   height: 100px;
   color: white;
 }
+
+/* EXAMPLE NUMBER 1 */
+/* MAX-WIDTH STARTS HIGHEST SIZE TO LOEST */
+@media screen and (max-width : 768px) {
+.content{
+  background-color: pink;
+}
+}
+@media screen and (max-width : 375px) {
+.content{
+  background-color: purple;
+}
+}
