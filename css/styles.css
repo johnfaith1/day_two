@@ -39,3 +39,15 @@
   height: 100px;
   color: white;
 }
+
+/* MEDIA QUERIES */
+@media screen and (min-width : 768px) {
+.content{
+  background-color: purple;
+}
+}
+@media screen and (min-width : 375px) and (max-width : 767px) {
+.content{
+  background-color: blue;
+}
+}
