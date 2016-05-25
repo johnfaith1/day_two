@@ -47,20 +47,7 @@
   background-color: pink;
 }
 }
-@media screen and (max-width : 375px) and (max-width : 767px) {
-.content{
-  background-color: purple;
-}
-}
-
-/* EXAMPLE NUMBER 2 */
-/* MAX-WIDTH STARTS HIGHEST SIZE TO LOEST */
-@media screen and (min-width : 768px) {
-.content{
-  background-color: pink;
-}
-}
-@media screen and (min-width : 375px) and (max-width : 767px) {
+@media screen and (max-width : 375px) {
 .content{
   background-color: purple;
 }
